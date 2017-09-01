@@ -19,3 +19,13 @@ $export = new MysqlExport\Export('backup', 'localhost', 'root', 'dev1');
 $export->getDatabases();
 $export->export();
 ```
+### License
+mysqlexport is an open source project by [Erhan Kılıç](http://erhankilic.org) that is licensed under [MIT](http://opensource.org/licenses/MIT).
+
+### Contribution
+Contribution are always **welcome and recommended**! Here is how:
+
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/mysqlexport.git```
+- Make your changes
+- Create a pull request
