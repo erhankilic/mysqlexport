@@ -12,7 +12,7 @@ Class isn't suitable for tables which has foreign keys. I'll update the class.
 
 ### Test Usage
 
-```sh
+```php
 <?php
 include 'Export.php';
 $export = new MysqlExport\Export('backup', 'localhost', 'root', 'dev1');
