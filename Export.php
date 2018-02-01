@@ -33,7 +33,7 @@ class Export
     {
         $this->path = $path;
         try {
-            $this->db = new \PDO("mysql:host=$host;charset=utf8"", $user, $pass, $driver_options);
+            $this->db = new \PDO("mysql:host=$host;charset=utf8", $user, $pass, $driver_options);
         } catch (\PDOException $e) {
             throw new \Exception($e->getMessage());
         }
