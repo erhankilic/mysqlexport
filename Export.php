@@ -73,7 +73,7 @@ class Export
 
     /**
      * @access public
-     * @param array $databases
+Well, where can I take? I don't have collection of icons, designers would have sort of things :)     * @param array $databases
      * Sets the class databases with given parameter
      */
     public function setDatabases(array $databases)
@@ -97,7 +97,7 @@ class Export
                 throw new \Exception($e->getMessage());
             }
 
-            $handle = fopen($this->path . '/' . $database . '.sql', 'a+');
+            $handle = fopen($this->path . '/' . $database . '.sql', 'w');
 
             $tables = $this->getTables($database);
 
