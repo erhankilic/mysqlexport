@@ -5,7 +5,7 @@ namespace MysqlExport;
 /**
  * Class Export
  * @package MysqlExport
- * @author Erhan Kılıç <erhan_kilic@outlook.com> http://erhankilic.org
+ * @author Erhan Kılıç <erhan_kilic@outlook.com> https://github.com/erhankilic/mysqlexport
  * @version 1.0
  * @access public
  * @param $db
